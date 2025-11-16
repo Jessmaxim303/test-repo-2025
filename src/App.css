@@ -13,15 +13,71 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-Header {
+  background-color: #313f57;
+/*	border: 1px solid green;*/
+/*  min-height: 30vh;*/
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+}
+
+.Menu-main-container {
+/*	border: 1px solid yellow;*/
+	width: 65%;
+	height: 6vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #f8d673;
+}
+
+.Menu-container {
+/*	border: 1px solid blue;*/
+	width: 85px;
+/*	height: 45px;*/
+	padding: 8px 12px;
+	background: red;
+}
+
+.App-Welcome {
+  background-color: grey;
+  min-height: 60vh;
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.App-Welcome-Subcontainer {
+	width: 50%;
+	height: 60vh;
+/*	border: 1px solid yellow;*/
+	background-color: #fafafa;
+}
+
+.App-Body {
+  background-color: #313f57;
+  min-height: 17vh;
+  width: 100%;
+}
+
+.App-Solution {
+  background-color: #fafafa;
+  min-height: 45vh;
+  width: 100%;
+}
+
+.App-Data {
+  background-color: lightblue;
+  min-height: 45vh;
+  width: 100%;
+}
+
+.App-DataProof {
+  background-color: #313f57;
+  min-height: 17vh;
+  width: 100%;
 }
 
 .App-link {
