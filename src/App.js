@@ -16,7 +16,13 @@ function App() {
 	    <div className="App-Welcome-Subcontainer">
 	  <img src="" /> 
 	    </div>
-	    <div className="App-Welcome-Subcontainer">Welcome Right</div>
+	    <div className="App-Welcome-Subcontainer">
+	      <h1>Jesse Maxim</h1>
+	      <p>Software Developer<br/>
+	      	 Graphic Designer<br/>
+	      	 Based in Denver
+	      </p>	
+	    </div>
 	  </div>
 	  <div className="App-Body">Body</div>
 	  <div className="App-Solution">Solution</div>
